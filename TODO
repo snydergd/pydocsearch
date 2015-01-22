@@ -1,0 +1,21 @@
+
+Numbered Tasks to be completed.  If you want to add a task between two others, please append a number (e.g. between 4 and 5 append .1 to make the number 4.1).
+
+1.  Create GUI for main window, figure out how to dynamically open/close the information panel and put it into edit mode
+2.  Create command line option to select sqlite database file
+3.  Create sqlite database structure and initialize it with some sample entries
+4.  Create function to update the doc list widget (putting new docs at the top in red), and call it when the program starts
+5.  Handle double-click to open document viewer, checking a list for programs to use and possibly using something like gnome-open or explorer to open the document otherwise
+6.  Decide how to handle document viewer open.  Could we wait for the launched viewer to close, then bring the main window into focus automatically?
+7.  Create configuration.py file to specify what viewer program is used for which type of file (by file extension)
+8.  Create function to scan a folder for documents (remembering to generate/check hashes and display messages as appropriate
+9.  Add a thread that reads a named pipe for folder names, then scans it
+10. Create a command-line option to send a signal through the named pipe to scan a folder
+11. Handle entry in the filter box to facilitate update of doc list widget
+12. Handle clicking on an item in the doc list to fill in values in view/modify panes
+13. Handle save/delete buttons on modify pane
+14. Handle search box click to hide view/modify pane
+15. Make setup script for windows -- vbs?
+    a. find python if it exists, and create a shortcut that launches this program
+    b. if possible, setup automatic scanning of media when it is plugged in
+16. Make setup script for Linux -- get root permissions if required and set up automatic scanning of usb stick when plugged in

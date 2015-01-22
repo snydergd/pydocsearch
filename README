@@ -19,6 +19,8 @@ There will be a command line parameter to select the sqlite database used.
 == File Structure ==
 configuration.py -- allows for specific viewers to be used for specific file extensions
 main.py -- used to launch the program
+main.ui -- Main Window Qt user interface file
+mainWindow.py -- Main Window Qt Code, generated from main.ui
 setup.vbs -- script to find python or throw an error, then run setup.py with it
 setup.sh -- script to find python or throw an error, then run setup.py with it
 setup.py -- set up a launcher if appropriate, and auto-indexing of inserted USB drives if possible
